@@ -14,7 +14,8 @@ exp(-x)-sin(x),0.6,1e-6,1e-4,10
 test-input-3:
 x-exp(-x),0.5,1e-6,1e-4,10
 
-test-input-4: x**2-2*x*exp(-x)+exp(-2*x),0.5,1e-6,1e-4,20
+test-input-4: 
+x**2-2*x*exp(-x)+exp(-2*x),0.5,1e-6,1e-4,20
 """
 
 from math import *

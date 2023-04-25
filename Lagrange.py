@@ -38,7 +38,7 @@ testInput1:
 
 testInput2:
 
-e**x
+exp(x)
 5
 5
 0.75
@@ -46,6 +46,7 @@ e**x
 2.75
 3.75
 4.75
+
 ------------------------
 
 
@@ -78,4 +79,4 @@ for i in range(m):
                 l = l * (x - a[j][0]) / (a[k][0] - a[j][0])
         y = y + l * a[k][1]
         k += 1
-    print("x:", x, " 近似值:", y, " 真值:", float(FX.subs(t, x)))
+    print("x:", x, "\t近似值:",format(y,'.8f'), "\t真值:",format(float(FX.subs(t, x)),'.8f'))
