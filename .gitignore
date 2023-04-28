@@ -4,9 +4,7 @@
 
 .idea
 
-./report
-
-./report/*
+report/
 
 # User-specific stuff
 .idea/**/workspace.xml
