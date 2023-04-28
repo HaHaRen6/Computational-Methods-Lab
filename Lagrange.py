@@ -73,7 +73,7 @@ testInput2-3:
 
 exp(x)
 1
-5
+20
 -1 1
 4
 -0.95
@@ -251,7 +251,7 @@ elif choice == 2:
         print(format(a[k][0], '.6f'), '\t', format(a[k][1], '.6f'))
 
 print("\n求解")
-m = int(input("插值点个数:"))  # 输入插值点个数
+m = int(input("插值点个数:")) 
 print("插值点")
 for i in range(m):
     x = float(input())
@@ -265,10 +265,7 @@ for i in range(m):
         y = y + l * a[k][1]
         k += 1
     print(
-        "x:",
-        format(x, '.6f'),
-        "\t近似值:",
-        format(y, '.8f'),
-        "\t真值:",
-        format(float(FX.subs(t, x)), '.8f'),
+        "x:", format(x, '.6f'),
+        "\t近似值:", format(y, '.8f'),
+        "\t真值:", format(float(FX.subs(t, x)), '.8f'),
     )
