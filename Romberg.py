@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+# @author hhr
+# @date 2023/4/26
+# @file Romberg.py
+
 """
 0 1 1e-6 x**2*exp(x)
 
@@ -18,7 +24,6 @@ a = float(a)
 b = float(b)
 e = float(e)
 f = sympify(f)
-# print(float(f.subs(x,1)))
 
 n = 10
 
